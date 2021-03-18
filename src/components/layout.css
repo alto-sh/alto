@@ -37,6 +37,13 @@ section,
 summary {
   display: block;
 }
+footer {
+  padding: 20px;
+  border-radius: .7rem;
+  font-weight: bold;
+  background: whitesmoke;
+  font-family: Gabriela, sans-serif;
+}
 audio,
 canvas,
 progress,
@@ -61,6 +68,10 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+}
+a:link, a:visited, a:hover, a:active {
+  color: black;
+  text-decoration:none;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -599,4 +610,41 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+#join-btn {
+  padding: 20px;
+  border-radius: .7rem;
+  font-size: 19pt;
+  font-weight: bold;
+  background: white;
+  transition: all .25s;
+}
+#join-btn:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.project-callout {
+  border: 2px solid black;
+  border-radius: .7rem;
+  padding: 30px;
+  transition: all .25s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project-callout > h2, p {
+  font-family: Gabriela, sans-serif;
+}
+.project-callout > p {
+  color: #666;
+  font-size: 16pt;
+  margin-bottom: 5px;
+}
+.project-callout:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.in-progress {
+  color: royalblue;
 }
