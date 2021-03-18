@@ -1,11 +1,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+
+import "@fontsource/gabriela" // Defaults to weight 400 with all styles included.
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -19,11 +21,22 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
+          id="site-header"
           style={{
-            color: `white`,
             textDecoration: `none`,
+            fontFamily: `Gabriela, sans-serif`,
           }}
         >
+          <StaticImage
+            src="../images/AltoLogoWithBackground.png"
+            width={43}
+            height={43}
+            style={{
+              marginRight: 20,
+              borderRadius: ".25rem",
+              verticalAlign: "bottom",
+            }}
+          />
           {siteTitle}
         </Link>
       </h1>
