@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -12,13 +11,13 @@ const IndexPage = () => (
     <p
       style={{
         fontFamily: "Gabriela, sans-serif",
-        fontSize: "18pt",
+        fontSize: "22pt",
         fontWeight: "bold",
         color: "#666",
         lineHeight: "1.4",
       }}
     >
-      Alto is a coding co-operative working to build connections while building useful programs! We are dedicated to expanding accessibility to Software Development for enthusiastic young developers!
+      Alto is a community of young developers, writing code to build connections.
     </p>
     <br/>
     <button

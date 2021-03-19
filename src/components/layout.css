@@ -626,6 +626,7 @@ pre tt:after {
 }
 .project-callout {
   border: 2px solid black;
+  border-color: #666 #000 #000 #666;
   border-radius: .7rem;
   padding: 30px;
   transition: all .25s;
