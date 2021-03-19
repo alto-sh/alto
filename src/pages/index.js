@@ -20,14 +20,20 @@ const IndexPage = () => (
       Alto is a community of young developers, writing code to build connections.
     </p>
     <br/>
-    <button
-      id="join-btn"
-      style={{
-        fontFamily: "Gabriela, sans-serif"
-      }}
+    <Link 
+      to="https://airtable.com/shrYonv1BROnD6Yc9"
+      target="_blank"
+      rel="noreferrer"
     >
-      Join Alto
-    </button>
+      <button
+        id="join-btn"
+        style={{
+          fontFamily: "Gabriela, sans-serif"
+        }}
+      >
+        Join Alto
+      </button>
+    </Link>
     <br/><br/>
     <hr/>
     <br/>
