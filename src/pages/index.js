@@ -7,8 +7,9 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const projects = [
+    { name: "Wall", link: "https://github.com/alto-sh/wall", description: "Graffiti the Web", inProgress: false },
     { name: "Colandria", link: "https://github.com/alto-sh/colandria", description: "The Reading Directory for Bookworms", inProgress: true },
-    { name: "Amnis", link: "https://github.com/alto-sh/amnis", description: "The Thought Organizer for the 21st Century", inProgress: true }
+    { name: "Amnis", link: "https://github.com/alto-sh/amnis", description: "The Thought Organizer for the 21st Century", inProgress: true },
   ]
 
   return (
